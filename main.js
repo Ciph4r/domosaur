@@ -30,9 +30,11 @@ let bcolors = true
 
 const bcolor = () => {
     bcolors ? 
-    (document.querySelector('#row').style.backgroundColor = 'red' , bcolors = false)
+    (document.querySelector('#row').style.backgroundColor = 'red' 
+    , bcolors = false)
     :
-    (document.querySelector('#row').style.backgroundColor = 'white' , bcolors = true)
+    (document.querySelector('#row').style.backgroundColor = 'white' 
+    , bcolors = true)
 
 }
 
